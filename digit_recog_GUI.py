@@ -3,7 +3,6 @@ from PIL import Image, ImageDraw
 from tensorflow import keras as k
 import numpy as n
 import cv2
-from tensorflow.python.keras.saving.saved_model.load import load
 
 loaded_SNN = k.models.load_model('SequentialNN.h5')
 
@@ -28,9 +27,9 @@ def predict():
     img_array = n.array(img_array, dtype = 'int32').reshape(1, 28, 28)
 
     pred = loaded_SNN.predict([img_array])
-    final_pred = n.argmax(pred[0])
+    final_pred = n.argmax(pred)
     # print(pred)
-    Label(main_frame, text = f'The prediction is : {n.argmax(final_pred)}', font = 'comicsansms 15 bold', fg = 'blue').grid(row = 6, column = 1, columnspan = 2)
+    Label(main_frame, text = f'The prediction is : {final_pred}', font = 'comicsansms 15 bold', fg = 'blue').grid(row = 6, column = 1, columnspan = 2)
 
 root = Tk()
 root.title("Digit Recogniser")
