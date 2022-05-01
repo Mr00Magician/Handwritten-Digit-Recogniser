@@ -28,7 +28,6 @@ def predict():
 
     pred = loaded_SNN.predict([img_array])
     final_pred = n.argmax(pred)
-    # print(pred)
     Label(main_frame, text = f'The prediction is : {final_pred}', font = 'comicsansms 15 bold', fg = 'blue').grid(row = 6, column = 1, columnspan = 2)
 
 root = Tk()
