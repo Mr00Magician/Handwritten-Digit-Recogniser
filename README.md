@@ -25,5 +25,14 @@ To run this app, follow these simple steps:
 - Run the command `python digit_recog_GUI.py`.
 
 ## SCREENSHOTS
+  |![App Window](https://user-images.githubusercontent.com/92143521/166221413-9aa1a3ce-9021-4898-a354-181cf3196aa3.png)|
+  |:--:|
+  |Application Window|
+  |![Digit 1](https://user-images.githubusercontent.com/92143521/166222673-8ff0bedd-8fc2-488c-bd9f-5a04fb3210d2.png)|
+  |:--:|
+  |![Digit 5](https://user-images.githubusercontent.com/92143521/166222725-42585cf8-fe83-4b1d-beef-bcf4d943cf88.png)|
+  |:--:|
 
-## A GIF TO DEMONSTRATE ITS WORKING
+## A GIF TO DEMONSTRATE WORKING OF THE APP
+  ![DigitRecogniser Sample](https://user-images.githubusercontent.com/92143521/166222772-0fb2ffaf-aa4d-49ae-902c-f1498c8969dc.gif)
+  
