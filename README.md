@@ -1,4 +1,4 @@
-<h1 align = "center"> HANDWRITTEN DIGIT RECONISER 
+<h1 align = "center"> HANDWRITTEN DIGIT RECOGNISER 
   <h3 align = "center"> Made with ❤️ and <img title = "Python" src = "https://user-images.githubusercontent.com/92143521/166102826-59081947-8e61-4e41-87d6-58ef893f0187.svg" height = "20px"> by Mr00Magician
   </h3>
 </h1>
