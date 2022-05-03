@@ -18,7 +18,7 @@ To run this app, follow these simple steps:
 - Clone this repository.
 - Create a new conda environment and install the dependencies in it. This can be done as follows:
   - Open `command prompt` and `cd` to the directory where you have cloned the repo.
-  - Run the command `conda env create -p "path\to\cloned\repo\<env name>" -f requirements.yml`. Note: replace <env name> with whatever name you want to give to your environment folder.
+  - Run the command `conda env create -p "path\to\cloned\repo\<env name>" -f requirements.yml`. Note: replace `<env name>` with whatever name you want to give to your environment folder.
 - The above steps will create a conda environment and install the required depndencies.
 - Now, to run the app, once again open `command prompt` and `cd` to the directory where you have cloned the repo.
 - Activate the conda environment by running the command `conda activate "path\to\env"`.
