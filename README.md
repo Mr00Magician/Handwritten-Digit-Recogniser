@@ -6,7 +6,7 @@
 <br>
 
 ## ABOUT THE APP
-A standalone application that makes use of Machine Learning to try and recognise a hand-drawn (or rather, mouse-drawn) digit. I also made a web implementation of this app (basically a web app) in case you simply want to try it out. Here's the link to it: https://huggingface.co/spaces/Mr00Magician/Handwritten-Digit-Recogniser
+A standalone application that makes use of Machine Learning to try and recognise a hand-drawn (or rather, mouse-drawn) digit. I also made a web implementation of this app (basically a web app) using Gradio and Hugging face in case you simply want to try it out. Here's the link to it: https://huggingface.co/spaces/Mr00Magician/Handwritten-Digit-Recogniser
 
 ## HOW IT WORKS
 Upon running, the app will provide you with a blank white interface on which you can draw a digit with your mouse, by clicking and dragging.
