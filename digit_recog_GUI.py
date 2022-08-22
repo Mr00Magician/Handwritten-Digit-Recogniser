@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw
 from tensorflow import keras as k
 import numpy as n
 import cv2
-
+ 
 loaded_SNN = k.models.load_model('SequentialNN.h5')
 
 def draw(event):
