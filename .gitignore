@@ -1,2 +1,3 @@
 build/
-env/
+develop_env/
+Training_CNN.ipynb

@@ -4,7 +4,7 @@ from tensorflow import keras as k
 import numpy as n
 import cv2
  
-loaded_SNN = k.models.load_model('CNN.h5')
+loaded_SNN = k.models.load_model('CNN_extended_dataset.h5')
 
 def draw(event):
     x1 = event.x - 10
