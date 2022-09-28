@@ -1,3 +1,4 @@
 build/
 venv/
+develop_env/
 Training_CNN.ipynb
