@@ -14,15 +14,18 @@ The app will then capture an image of the digit drawn and pass it to a neural ne
 
 ## HOW TO RUN
 To run this app, follow these simple steps:
-- See that you have `Conda` installed by running the command `conda --v` in command prompt. If installed, it will display the conda version. If not, see <a href = "https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html" >here</a> how to install it.
+- See that you have `Python` installed.
 - Clone this repository.
-- Create a new conda environment and install the dependencies in it. This can be done as follows:
+- Create a new Python environment and install the dependencies in it. This can be done as follows:
   - Open `command prompt` and `cd` to the directory where you have cloned the repo.
-  - Run the command `conda env create -p "path\to\cloned\repo\<env name>" -f requirements.yml`. Note: replace `<env name>` with whatever name you want to give to your environment folder.
-- The above steps will create a conda environment and install the required depndencies.
-- Now, to run the app, once again open `command prompt` and `cd` to the directory where you have cloned the repo.
-- Activate the conda environment by running the command `conda activate "path\to\env"`.
-- Run the command `python digit_recog_GUI.py`.
+  - Run the command `Python -m venv env` to create a new virtual environment named `env`
+  - Activate the enviroment by running the command `env\Scripts\activate.bat`
+  - Install depencies by running the command `pip install -r requirements.txt` <br> 
+
+The above steps will create a python virtual environment and install the required depndencies in it. Now whenever you want to run the app, follow these steps:
+- Open `command prompt` and `cd` to the directory where you have cloned the repo.
+- Activate the python environment by running the command `env\Scripts\activate.bat`.
+- Run the app by the command `Python digit_recog_GUI.py`. <br> <br>
 
 ## SCREENSHOTS
   |![App Window](https://user-images.githubusercontent.com/92143521/166221413-9aa1a3ce-9021-4898-a354-181cf3196aa3.png)|
